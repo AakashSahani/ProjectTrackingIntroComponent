@@ -10,5 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AakashSahani/ProjectTrackingIntroComponent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AakashSahani/ProjectTrackingIntroComponent/issues"
+  },
+  "homepage": "https://github.com/AakashSahani/ProjectTrackingIntroComponent#readme"
 }
