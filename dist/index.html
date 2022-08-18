@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Frontend Mentor | Project tracking intro component</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <img src="./images/logo.svg" alt="A logo of Website" />
-        <div class="nav-menu">
-          <ul>
-            <li><a href="#product">PRODUCT</a></li>
-            <li><a href="#features">FEATURES</a></li>
-            <li><a href="#pricing">PRICING</a></li>
-            <li><a href="#login">LOGIN</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="main-text">
-        <blockquote><span>New</span> MONOGRAPH DASHBOARD</blockquote>
-        <h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
-        <p>Project planning and time tracking <br />for agile teams</p>
-        <span class="bottom-text">
-          <button>SCHEDULE A DEMO</button>
-          TO SEE A PREVIEW</span
-        >
-      </div>
-      <div class="main-img">
-        <img
-          src="./images/illustration-devices.svg"
-          alt="An Illustration of Desktop and Mobile UI"
-        />
-      </div>
-    </main>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/menu.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Frontend Mentor | Project tracking intro component</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<img src="./images/logo.svg" alt="A logo of Website" class="logo" />
+				<ul class="nav-item">
+					<li><a href="#product">PRODUCT</a></li>
+					<li><a href="#features">FEATURES</a></li>
+					<li><a href="#pricing">PRICING</a></li>
+					<li><a href="#login">LOGIN</a></li>
+				</ul>
+				<img
+					src="./images/icon-hamburger.svg"
+					alt="An icon of Menu"
+					class="hamburger"
+				/>
+			</nav>
+		</header>
+		<main>
+			<div class="main-text">
+				<blockquote>
+					<span class="new">New</span> MONOGRAPH DASHBOARD
+				</blockquote>
+				<h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+				<p>Project planning and time tracking <br />for agile teams</p>
+				<span class="bottom-text">
+					<button>SCHEDULE A DEMO</button>
+					TO SEE A PREVIEW</span
+				>
+			</div>
+			<div class="main-img">
+				<img
+					src="./images/illustration-devices.svg"
+					alt="An Illustration of Desktop and Mobile UI"
+				/>
+			</div>
+		</main>
 
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Aakash Sahani</a>.
-      </p>
-    </footer>
-  </body>
+		<footer>
+			<p class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Aakash Sahani</a>.
+			</p>
+		</footer>
+	</body>
 </html>
