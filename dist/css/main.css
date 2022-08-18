@@ -17,42 +17,13 @@ body {
   font-family: 'Barlow Condensed', sans-serif;
   margin: 3rem 0 3rem 10rem; }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 1rem; }
-  .container ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 7rem; }
-    .container ul li {
-      font-weight: 700; }
-      .container ul li:last-child a {
-        color: #a0a1ac; }
-      .container ul li:last-child::before {
-        content: '';
-        content: '\2022';
-        /* Add content: \2022 is the CSS Code/unicode for a bullet */
-        color: #a0a1ac;
-        /* Change the color */
-        font-weight: bold;
-        /* If you want it to be bold */
-        display: inline-block;
-        /* Needed to add space between the bullet and the text */
-        width: 1em;
-        /* Also needed for space (tweak if needed) */
-        margin-left: -1em;
-        margin-right: 2rem; }
-
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   margin-right: 0;
-  margin-top: 5rem;
+  margin-top: 3rem;
   position: relative; }
   main .main-text {
     display: flex;
@@ -65,8 +36,9 @@ main {
     main .main-text h1 {
       font-family: 'Barlow Condensed', sans-serif;
       font-weight: 700;
-      font-size: 4rem;
-      line-height: 1; }
+      font-size: 5rem;
+      line-height: 1;
+      color: #242942; }
     main .main-text p {
       font-weight: 400;
       font-size: 1.3rem;
@@ -88,7 +60,9 @@ main {
         background: #242942;
         color: #eef3f6;
         width: 1rem;
-        border-radius: 2px; }
+        padding: 0.2rem 0.5rem;
+        text-align: center;
+        border-radius: 12px; }
   main .main-img {
     overflow: hidden; }
 
