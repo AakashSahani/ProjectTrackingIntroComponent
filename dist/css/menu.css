@@ -19,11 +19,11 @@
         font-weight: 700;
         font-family: 'Barlow Condensed'; }
       .navbar .nav-item li:last-child {
-        color: #eef3f6;
+        color: #999c9f;
         list-style: disc;
         padding-left: 3rem; }
         .navbar .nav-item li:last-child a {
-          color: #eef3f6; }
+          color: #969696; }
   .navbar .hamburger {
     display: none; }
 
@@ -49,7 +49,7 @@
       position: fixed;
       margin: auto;
       top: 100px;
-      box-shadow: 0 0 12px 2px grey;
+      box-shadow: 0 0 20px 2px grey;
       border-radius: 5px;
       background-color: white;
       width: 80%;
@@ -64,12 +64,16 @@
         color: black;
         margin: 1rem 0;
         padding: 0; }
+        .navbar .nav-item li a {
+          font-weight: 700;
+          font-family: 'Barlow Condensed';
+          font-size: 1.3rem; }
         .navbar .nav-item li:last-child {
           list-style: none;
           text-align: center;
-          padding: 2rem 0;
+          padding: 1rem 0;
           width: 80%;
-          border-top: 2px solid grey;
-          height: 3rem; }
+          border-top: 2px solid #c7c4c4;
+          height: 4rem; }
           .navbar .nav-item li:last-child a {
             color: grey; } }
