@@ -41,7 +41,7 @@
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 710px) {
 	.navbar {
 		margin: 0;
 		padding: 2rem 1rem;
@@ -54,6 +54,7 @@
 			display: block;
 			width: 25px;
 			height: 20px;
+			transition: 0.3s ease-in-out;
 			&:hover {
 				cursor: pointer;
 			}
